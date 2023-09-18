@@ -1,0 +1,29 @@
+.container5{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 200px 0px;
+}
+.container5-heading{
+	width:100%;
+	text-align: center;
+	font-size: 2em;
+	color: #331B3B;
+}
+
+.container5-content{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.container5-left, .container5-right{
+	width:30%;
+	padding: 20px 30px;
+	margin: 80px 50px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container5-left p, .container5-right p{
+	margin-top: 10px;
+}
