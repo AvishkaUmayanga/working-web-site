@@ -1,0 +1,85 @@
+#container5{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 200px 0px;
+}
+.container5-heading{
+	width:100%;
+	text-align: center;
+	font-size: 2em;
+	color: #331B3B;
+}
+
+.container5-content{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.container5-left, .container5-right{
+	width:30%;
+	padding: 20px 30px;
+	margin: 80px 50px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container5-left p, .container5-right p{
+	margin-top: 10px;
+}
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+	#container5{
+		margin: 200px 0px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#container5{
+		margin: 200px 0px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#container5{
+		margin: 200px 0px;
+	}
+	.container5-left, .container5-right{
+		width:40%;
+		padding: 20px 20px;
+		margin: 50px 30px;
+	}
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#container5{
+		margin: 200px 0px;
+	}
+	.container5-left, .container5-right{
+		width:40%;
+		padding: 20px 20px;
+		margin: 50px 20px;
+	}
+	.container5-heading{
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+	#container5{
+		margin: 200px 0px;
+	}
+	.container5-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container5-left, .container5-right{
+		width: 80%;
+		margin: 40px 50px;
+	}
+}

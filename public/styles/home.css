@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 
-.container1{
+#container1{
 	width:100%;
 	position: relative;
 	display: flex;
@@ -83,19 +83,18 @@
 	padding: 100px 40px;
 }
 .header{
-	font-size: 4em;
+	font-size: 2em;
 	line-height: 1em;
 	margin-bottom: 20px;
 }
 .container1-rightcontent{
 	width: 50%;
-	height: 500px;
+	height: 450px;
 	right: 0;
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 .container1-rightcontent::before{
 	content: '';
@@ -124,8 +123,164 @@
     -webkit-mask:url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjEuNywtMjIuMUMyNy43LC0xNS42LDMyLC03LjgsMzEuMSwtMC45QzMwLjIsNi4xLDI0LjIsMTIuMiwxOC4yLDE3LjhDMTIuMiwyMy40LDYuMSwyOC41LC0xLjYsMzAuMUMtOS40LDMxLjgsLTE4LjcsMjkuOSwtMjEuNSwyNC4zQy0yNC4zLDE4LjcsLTIwLjYsOS40LC0yMS4zLC0wLjdDLTIyLC0xMC44LC0yNy4xLC0yMS41LC0yNC4zLC0yOEMtMjEuNSwtMzQuNSwtMTAuOCwtMzYuNiwtMS41LC0zNS4yQzcuOCwtMzMuNywxNS42LC0yOC42LDIxLjcsLTIyLjFaIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiIHN0cm9rZS13aWR0aD0iMCIgc3R5bGU9InRyYW5zaXRpb246IGFsbCAwLjNzIGVhc2UgMHM7IiBzdHJva2U9InVybCgjc3ctZ3JhZGllbnQpIj48L3BhdGg+CiAgICAgICAgICAgICAgPC9zdmc+);
     
     transform: rotate(-90deg);
+    border: 1px solid black;
 }
 
 
 
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+	.navigations{
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.navigations{
+		width: 40%;
+	}
+	.top-bar{
+		padding: 0px 20px;
+		font-size: 1em;
+	}
+	.container1-rightcontent{
+		height: 400px;
+	}
+	.container1-img{
+		width: 500px;
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.navigations{
+		width: 40%;
+	}
+	.navigations li{
+		padding-left: 10px;
+	}
+	.top-bar{
+		padding: 0px 10px;
+		font-size: 1em;
+	}
+	.container1-rightcontent{
+		height: 400px;
+	}
+	.container1-img{
+		width: 500px;
+		height: 500px;
+	}
+	.social-media{
+		width: 35%;
+	}
+	.top-bar{
+		display: flex;
+		width: 100%;
+		height: 60px;
+		align-items: center;
+		padding: 0px 30px;
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.navigations{
+		width: 40%;
+	}
+	.navigations li{
+		padding-left: 10px;
+	}
+	.top-bar{
+		padding: 0px 10px;
+		font-size: 1em;
+	}
+	.container1-rightcontent{
+		height: 400px;
+	}
+	.container1-img{
+		width: 500px;
+		height: 500px;
+	}
+	.social-media{
+		width: 20%;
+	}
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	.navigations{
+		width: 50%;
+	}
+	.navigations li{
+		padding-left: 10px;
+	}
+	.top-bar{
+		padding: 0px 10px;
+		font-size: 1em;
+	}
+	.container1-rightcontent{
+		height: 300px;
+		width: 60%;
+	}
+	.container1-img{
+		width: 350px;
+		height: 350px;
+	}
+	.social-media{
+		width: 20%;
+	}
+	.container1-leftcontent{
+		padding: 30px 20px;
+	}
+	.container1-button{
+		padding: 10px 10px;
+	}
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+	.navigations{
+		width: 50%;
+	}
+	.navigations li{
+		padding-left: 10px;
+	}
+	.top-bar{
+		padding: 0px 10px;
+		font-size: 1em;
+	}
+	.container1-content{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.container1-leftcontent{
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .container1-rightcontent{
+        width: 100%; 
+        position: relative; 
+        height: 300px; 
+    }
+	.container1-img{
+		width: 320px;
+		height: 320px;
+	}
+	.social-media{
+		width: 20%;
+	}
+	.container1-leftcontent{
+		padding: 30px 20px;
+	}
+	.container1-button{
+		padding: 8px 8px;
+	}
+	.navigations{
+		display: none;
+	}
+}
 
