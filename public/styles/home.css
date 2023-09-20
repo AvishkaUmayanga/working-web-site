@@ -2,6 +2,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Inter', sans-serif;
+}
 
 #container1{
 	width:100%;
@@ -32,7 +35,7 @@
 
 .navigations{
 	display: flex;
-	width: 30%;
+	width: 40%;
 	justify-content: flex-start;
 }
 

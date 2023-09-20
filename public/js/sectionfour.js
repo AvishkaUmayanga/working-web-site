@@ -1,5 +1,5 @@
-
 window.addEventListener('resize', function(){
+
 	const itemContainer = document.querySelector('.item-container');
 	const nextBtn = document.querySelector('.nxt-button');
 	const preBtn = document.querySelector('.pre-button');
